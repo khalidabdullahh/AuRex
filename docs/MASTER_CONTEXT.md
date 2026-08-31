@@ -760,3 +760,805 @@ Future contexts must preserve this history.
 Do not silently overwrite confirmed or historical decisions.
 
 If future decisions change any part of this document, mark the previous decision as superseded and record the new decision with its context number.
+
+
+AUREX — MASTER CONTEXT 02
+
+Implementation Strategy & AI-Assisted Development Plan
+
+---
+
+1. PROJECT STATUS
+
+AUREX is a completely new and independent game project.
+
+It is NOT a continuation, conversion, or rewrite of OOPS.
+
+OOPS remains a separate existing project and should not be mixed with AUREX.
+
+AUREX is being developed as a new long-term game IP with its own:
+
+- Brand identity
+- Game architecture
+- Gameplay systems
+- Worlds
+- Visual direction
+- Technology stack
+- Development workflow
+
+The project is currently entering the actual game development phase, but development must begin with planning and prototyping rather than immediately building the full game.
+
+---
+
+2. CORE PROJECT VISION
+
+Game Name
+
+AUREX
+
+AUREX is intended to become an immersive and cinematic game experience.
+
+The project direction is:
+
+«First-Person 3D Adventure + Exploration + Puzzle + Environmental Survival»
+
+The goal is to create a game where the player feels physically present inside the world.
+
+The intended experience is:
+
+«Explore → Observe → Discover → Understand → Solve → Survive → Progress»
+
+AUREX should not feel like a traditional repetitive level-based trap game.
+
+The focus is not:
+
+«Trap → Die → Restart → Repeat»
+
+Instead, the focus should be:
+
+«Enter an unknown world → Explore → Notice something unusual → Understand the environment → Solve problems → Face environmental danger → Discover what lies ahead.»
+
+---
+
+3. FIRST-PERSON IMMERSION
+
+AUREX will be a full 3D game experienced primarily from a first-person perspective.
+
+The player should feel as though they are looking through the character's eyes.
+
+Core first-person experience:
+
+- Look around freely
+- Walk
+- Run
+- Jump
+- Explore environments
+- Observe distant structures
+- Interact with objects
+- Solve environmental puzzles
+- Encounter environmental hazards
+- Discover hidden locations
+
+The visual and movement experience should prioritize immersion.
+
+The design goal is not to copy any existing game, but to achieve a high level of environmental immersion, cinematic presentation, spatial depth, lighting, animation, and player presence.
+
+---
+
+4. WORLD PHILOSOPHY
+
+AUREX is planned as a multi-world game universe.
+
+Each world must have its own:
+
+- Visual identity
+- Environmental atmosphere
+- Gameplay philosophy
+- Puzzle style
+- Environmental dangers
+- Audio identity
+- Story discoveries
+
+Worlds must not simply be different colored versions of the same gameplay.
+
+A mechanic or concept should not automatically be repeated across worlds.
+
+Each new world should make the player feel:
+
+«"I have entered a completely different place."»
+
+Current high-level world concepts:
+
+---
+
+WORLD 1 — FLOATING SKY CIVILIZATION
+
+Core feeling:
+
+- Discovery
+- Height
+- Scale
+- Awe
+- Mystery
+- Isolation
+
+Possible environment elements:
+
+- Floating islands
+- Ancient ruins
+- Broken temples
+- Bridges between structures
+- Clouds
+- Massive distant architecture
+- Waterfalls falling into the sky or unknown depths
+
+Primary emotional experience:
+
+«"Where am I, and how is this place even possible?"»
+
+---
+
+WORLD 2 — MYSTICAL GIANT FOREST
+
+Core feeling:
+
+- Exploration
+- Wonder
+- Mystery
+- Living environment
+
+Possible environment elements:
+
+- Giant trees
+- Massive roots
+- Giant plants
+- Fog
+- Glowing vegetation
+- Hidden pathways
+- Ancient structures absorbed by nature
+
+Primary emotional experience:
+
+«"This world feels alive."»
+
+---
+
+WORLD 3 — ABANDONED MECHANICAL WORLD
+
+Core feeling:
+
+- Industrial mystery
+- Scale
+- Danger
+- Mechanical systems
+
+Possible environment elements:
+
+- Massive machinery
+- Moving gears
+- Steam
+- Industrial ruins
+- Broken robots or unknown machines
+- Giant mechanical structures
+
+Primary emotional experience:
+
+«"Something enormous used to operate here."»
+
+---
+
+WORLD 4 — LOST ANCIENT CIVILIZATION
+
+Core feeling:
+
+- Discovery
+- Ancient mystery
+- Hidden history
+- Large-scale architecture
+
+Possible environment elements:
+
+- Ancient temples
+- Underground chambers
+- Massive statues
+- Forgotten cities
+- Secret passages
+- Collapsing structures
+
+Primary emotional experience:
+
+«"Someone built this. What happened to them?"»
+
+---
+
+5. IMPORTANT SCOPE RULE
+
+Do NOT attempt to build all worlds at once.
+
+Do NOT begin with:
+
+- Four complete worlds
+- Huge maps
+- Hundreds of levels
+- Large amounts of story
+- Hundreds of gameplay systems
+
+The first objective is to prove that the game is genuinely fun and immersive.
+
+Development must follow:
+
+SMALL PROTOTYPE → TEST → IMPROVE → VALIDATE → EXPAND
+
+---
+
+6. GAME ENGINE
+
+The current planned engine is:
+
+UNITY
+
+Unity will be used as the primary game engine for:
+
+- 3D rendering
+- First-person gameplay
+- Physics
+- Collision
+- Lighting
+- Animation
+- Scene construction
+- Audio
+- UI
+- Gameplay systems
+- Puzzle systems
+- Environmental hazards
+
+Unity is the actual runtime environment where AUREX will become a playable game.
+
+AI tools do not replace the game engine.
+
+---
+
+7. AI-ASSISTED DEVELOPMENT STRATEGY
+
+AUREX will use AI extensively.
+
+However:
+
+«AI will accelerate development.
+Unity will run the actual game.
+Human playtesting will determine whether the game is fun.»
+
+AI can assist with:
+
+Visual Development
+
+- Concept art
+- Environment concepts
+- World mood exploration
+- Architecture ideas
+- Object variations
+- Texture concepts
+- Material concepts
+- Asset planning
+
+Programming
+
+- C# script assistance
+- Gameplay system architecture
+- Debugging
+- Code review
+- Refactoring suggestions
+- Documentation
+
+Game Design
+
+- Puzzle concepts
+- Environmental challenges
+- Level flow
+- Exploration design
+- Progression design
+
+Story
+
+- Lore development
+- World history
+- Environmental storytelling
+- Dialogue concepts if required
+- Cinematic planning
+
+Production
+
+- Asset lists
+- Development checklists
+- Testing plans
+- Documentation
+- Bug analysis
+
+AI-generated images or concepts should not automatically be treated as finished game assets.
+
+Playable game environments may require:
+
+- 3D models
+- Materials
+- Textures
+- Collision
+- Optimization
+- Lighting
+- Animation
+- LOD or equivalent performance systems
+
+---
+
+8. DEVELOPMENT WORKFLOW
+
+The development pipeline should operate as follows:
+
+HUMAN VISION
+
+↓
+Game design and final decisions
+
+AI ASSISTANCE
+
+↓
+Concepts, planning, code assistance, asset assistance, debugging
+
+UNITY IMPLEMENTATION
+
+↓
+Scenes, gameplay, physics, interaction, lighting, animation
+
+PLAYTESTING
+
+↓
+Evaluate fun, immersion, difficulty and technical stability
+
+ITERATION
+
+↓
+Improve the weakest part and test again
+
+This cycle should repeat continuously.
+
+---
+
+9. PHASE 0 — PRE-PRODUCTION
+
+Before building major gameplay content, the following must be clarified and documented:
+
+- Core game identity
+- Target platform
+- Art direction
+- Core gameplay loop
+- Player role
+- World connection philosophy
+- Interaction philosophy
+- Puzzle philosophy
+- Environmental hazard philosophy
+- Audio direction
+- Progression philosophy
+
+No major production content should begin until the core direction is sufficiently stable.
+
+However, documentation must not become endless planning.
+
+The goal is to reach a point where a prototype can be built.
+
+---
+
+10. PHASE 1 — UNITY FOUNDATION
+
+Create the AUREX Unity project.
+
+Establish a clean project structure.
+
+Suggested conceptual organization:
+
+AUREX
+
+- Core
+  
+  - Game management
+  - Scene management
+  - Save system
+
+- Player
+  
+  - Movement
+  - Camera
+  - Interaction
+
+- Gameplay
+  
+  - Puzzle systems
+  - Hazard systems
+  - Interaction systems
+
+- World
+  
+  - Environment
+  - World management
+  - Transitions
+
+- UI
+
+- Audio
+
+- Cinematics
+
+This structure should remain flexible.
+
+Do not create unnecessary complex architecture before systems actually require it.
+
+---
+
+11. PHASE 2 — CORE PLAYER FEEL
+
+Before creating beautiful environments, create and test the first-person player experience.
+
+The initial prototype should include:
+
+- Walking
+- Running
+- Jumping
+- Looking around
+- Collision
+- Basic gravity
+
+The player controller must then be tuned.
+
+Important variables include:
+
+- Movement speed
+- Acceleration
+- Deceleration
+- Jump height
+- Gravity
+- Air control
+- Camera sensitivity
+- Camera smoothing
+- Field of view
+
+The core principle is:
+
+«If movement does not feel satisfying in a simple prototype environment, graphics will not solve the problem.»
+
+Player feel must be tested before major environment production begins.
+
+---
+
+12. PHASE 3 — FIRST PLAYABLE VERTICAL SLICE
+
+The first major milestone is NOT World 1.
+
+It is NOT a complete game.
+
+It is:
+
+ONE SMALL PLAYABLE AUREX EXPERIENCE
+
+Target length:
+
+Approximately 5–10 minutes.
+
+Initial setting:
+
+WORLD 1 — FLOATING SKY CIVILIZATION
+
+The prototype should demonstrate the complete intended AUREX experience.
+
+Suggested experience structure:
+
+1. Player begins in a visually interesting location.
+
+2. Player looks around and understands the scale of the world.
+
+3. Player explores a small area.
+
+4. Player discovers a blocked route or environmental problem.
+
+5. Player observes the environment for clues.
+
+6. Player interacts with a mechanism or solves a simple environmental puzzle.
+
+7. The environment changes or introduces danger.
+
+8. Player navigates through the danger.
+
+9. The experience ends with a cinematic or visually memorable reveal.
+
+The vertical slice should answer one question:
+
+"Is AUREX actually fun and immersive to play?"
+
+If the answer is no, improve the prototype.
+
+Do not expand into a huge game until the answer is yes.
+
+---
+
+13. ART DIRECTION
+
+The current preferred direction is:
+
+STYLIZED REALISM + CINEMATIC PRESENTATION
+
+Avoid two extremes:
+
+- Completely cartoon-like visuals
+- Attempting ultra-realistic AAA graphics immediately
+
+The visual target should prioritize:
+
+- Realistic proportions
+- Strong environment composition
+- Atmospheric lighting
+- Depth
+- Fog where appropriate
+- Environmental scale
+- Cinematic moments
+
+The objective is not maximum polygon count.
+
+The objective is:
+
+«A visually beautiful world that performs well and creates atmosphere.»
+
+Performance must be considered from the beginning.
+
+---
+
+14. GRAPHICS AND ASSET STRATEGY
+
+AUREX may use a combination of:
+
+- Original assets
+- AI-assisted concepts
+- AI-assisted asset creation where technically suitable
+- Existing legally usable assets
+- Manually created Unity environments
+
+Every asset used must be evaluated for:
+
+- Technical compatibility
+- Performance
+- Licensing/commercial usage rights
+- Visual consistency
+
+Do not fill the game with random assets from different visual styles.
+
+Each world needs a coherent visual identity.
+
+---
+
+15. CORE GAMEPLAY SYSTEMS — FUTURE IMPLEMENTATION
+
+After the vertical slice is validated, expand the gameplay systems gradually.
+
+Potential systems include:
+
+Interaction
+
+- Inspect
+- Activate
+- Pull
+- Push
+- Trigger mechanisms
+
+Only add interaction types that genuinely improve gameplay.
+
+Puzzles
+
+Puzzles should primarily emerge from the environment.
+
+Avoid inserting unrelated generic puzzles into every location.
+
+Environmental Hazards
+
+The game should avoid relying on repetitive:
+
+«Instant trap → Death → Restart»
+
+Environmental danger should instead create:
+
+- Observation
+- Tension
+- Reaction
+- Consequence
+
+Checkpoints
+
+Checkpoints should be fair.
+
+The player should not repeatedly replay long sections because of poorly placed checkpoints.
+
+Save System
+
+Eventually track:
+
+- Progress
+- World state where necessary
+- Settings
+- Checkpoints where appropriate
+
+---
+
+16. TESTING PHILOSOPHY
+
+Every major system must be tested before expanding the project.
+
+Test:
+
+- Movement
+- Collision
+- Physics
+- Interaction
+- Puzzle flow
+- Player recovery
+- Checkpoints
+- Performance
+- Scene loading
+
+Do not build large amounts of content on top of broken foundations.
+
+The development loop is:
+
+BUILD SMALL
+↓
+PLAY
+↓
+FIND PROBLEMS
+↓
+FIX
+↓
+PLAY AGAIN
+↓
+EXPAND
+
+---
+
+17. PERFORMANCE STRATEGY
+
+AUREX is a 3D project.
+
+Therefore performance must be considered from the beginning.
+
+Avoid:
+
+- Excessive high-poly objects
+- Excessive dynamic lights
+- Unnecessary real-time effects
+- Extremely large scenes without optimization
+- Hundreds of active objects when unnecessary
+
+Visual quality must be balanced with:
+
+- Target hardware
+- Frame rate
+- Memory usage
+- Loading time
+
+The first prototype should remain relatively small and optimized.
+
+---
+
+18. PRODUCTION EXPANSION RULE
+
+Only after the vertical slice successfully demonstrates:
+
+- Good movement
+- Good gameplay feel
+- Visual appeal
+- Immersion
+- Stable technical performance
+
+should major World 1 production begin.
+
+Production flow:
+
+CORE FOUNDATION
+↓
+PLAYER PROTOTYPE
+↓
+VERTICAL SLICE
+↓
+PLAYTEST
+↓
+ITERATE
+↓
+VALIDATE
+↓
+WORLD 1 PRODUCTION
+↓
+POLISH
+↓
+NEXT WORLD
+
+---
+
+19. PROJECT SEPARATION
+
+AUREX and OOPS must remain separate.
+
+OOPS:
+
+- Existing project
+- Existing codebase
+- Existing gameplay identity
+- Existing web deployment
+
+AUREX:
+
+- New game
+- New architecture
+- New Unity project
+- New gameplay philosophy
+- New visual identity
+
+Do not attempt to convert the OOPS codebase into AUREX.
+
+Do not mix OOPS mechanics into AUREX unless a specific concept is intentionally redesigned and approved.
+
+---
+
+20. MASTER DEVELOPMENT PRINCIPLE
+
+The most important rule for AUREX is:
+
+DO NOT BUILD BIG BEFORE PROVING THE EXPERIENCE IS GOOD.
+
+Do not repeat the mistake of creating a large amount of content before confirming that the core game is enjoyable.
+
+The first major goal is not:
+
+«Build World 1.»
+
+The first major goal is:
+
+«Build a small 5–10 minute experience that makes the player genuinely want to continue.»
+
+Once that experience works, AUREX can expand confidently.
+
+---
+
+CURRENT IMPLEMENTATION STATUS
+
+AUREX is currently in:
+
+PRE-PRODUCTION → TECHNICAL SETUP → CORE PROTOTYPE
+
+Immediate next steps:
+
+1. Finalize core vision details.
+2. Install and configure Unity.
+3. Create the AUREX Unity project.
+4. Build and test the first-person controller.
+5. Create a simple prototype environment.
+6. Validate movement and core player feel.
+7. Design the first World 1 vertical slice.
+8. Begin visual/environment implementation only after the core experience is validated.
+
+---
+
+FINAL PROJECT MINDSET
+
+AUREX should be developed as a long-term game project.
+
+The goal is not to generate a large amount of content quickly.
+
+The goal is to gradually build:
+
+«A stable foundation
+→ a satisfying player experience
+→ a visually memorable world
+→ a complete game universe.»
+
+AI should be used aggressively as a development accelerator, but final gameplay decisions must be validated through actual playtesting.
+
+AUREX DEVELOPMENT PRINCIPLE
+
+«SMALL EXPERIENCE.
+TEST EVERYTHING.
+KEEP WHAT IS FUN.
+REMOVE WHAT IS NOT.
+THEN EXPAND.»
